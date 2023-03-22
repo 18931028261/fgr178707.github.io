@@ -31,40 +31,48 @@ class Musics {
             songUrl: './songs/茅野愛衣_戸松遥_早見沙織-secret base ～君がくれたもの～(10 years after Ver.).mp3',
             imageUrl: './images/songs/1.jpg'
         },
-		{
-                id: 2,
-                title: '心做し',
-                singer: 'GUMI',
-                songUrl: './songs/GUMI-心做し.mp3',
-                imageUrl: './images/songs/2.jpg'
+        {
+            id: 2,
+            title: '心做し',
+            singer: 'GUMI',
+            songUrl: './songs/GUMI-心做し.mp3',
+            imageUrl: './images/songs/2.jpg'
         },
-		{
-                id: 3,
-                title: 'Op Only My Railgun',
-                singer: '某科学的超电磁炮',
-                songUrl: './songs/某科学的超电磁炮-Op Only My Railgun.mp3',
-                imageUrl: './images/songs/3.jpg'
+        {
+            id: 3,
+            title: 'Op Only My Railgun',
+            singer: '某科学的超电磁炮',
+            songUrl: './songs/某科学的超电磁炮-Op Only My Railgun.mp3',
+            imageUrl: './images/songs/3.jpg'
         },
-		{
-                id: 4,
-                title: 'LEVEL5-judgelight-(カバー)',
-                singer: '是枝みき',
-                songUrl: './songs/是枝みき-LEVEL5-judgelight-(カバー).mp3',
-                imageUrl: './images/songs/4.jpg'
+        {
+            id: 4,
+            title: 'LEVEL5-judgelight-(カバー)',
+            singer: '是枝みき',
+            songUrl: './songs/是枝みき-LEVEL5-judgelight-(カバー).mp3',
+            imageUrl: './images/songs/4.jpg'
         },
-		{
-                id: 5,
-                title: 'eternal reality (TV Version)',
-                singer: 'FripSide',
-                songUrl: './songs/FripSide-eternal reality (TV Version).mp3',
-                imageUrl: './images/songs/5.jpg'
+        {
+            id: 5,
+            title: 'eternal reality (TV Version)',
+            singer: 'FripSide',
+            songUrl: './songs/FripSide-eternal reality (TV Version).mp3',
+            imageUrl: './images/songs/5.jpg'
         },
-		{
-                id: 6,
-                title: '我的未来式',
-                singer: '郭采洁',
-                songUrl: './songs/郭采洁-我的未来式-《爱情公寓》电视剧片头曲.mp3',
-                imageUrl: './images/songs/6.jpg'
+        {
+            id: 6,
+            title: '我的未来式',
+            singer: '郭采洁',
+            songUrl: './songs/郭采洁-我的未来式-《爱情公寓》电视剧片头曲.mp3',
+            imageUrl: './images/songs/6.jpg'
+
+        },
+        {
+            id: 7,
+            title: '心做remix',
+            singer: 'DJ先森',
+            songUrl: './songs/DJ先森-心做remix.mp3',
+            imageUrl: './images/songs/7.jpg'
         },
         ]
     }
@@ -79,7 +87,7 @@ class PlayerCreator {
     constructor() {
         this.audio = document.querySelector('.music-player__audio') // Audio dom元素, 因为很多api都是需要原生audio调用的，所以不用jq获取
         // this.audio.muted = true; // 控制静音
-        this.audio.volume = 0.8;
+        this.audio.volume = 0.25;
 
         //工具
         this.util = new Util();
