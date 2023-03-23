@@ -69,10 +69,24 @@ class Musics {
         },
         {
             id: 7,
-            title: '心做remix',
-            singer: 'DJ先森',
-            songUrl: './songs/DJ先森-心做remix.mp3',
+            title: '直到世界尽头',
+            singer: '上杉升,织田哲郎',
+            songUrl: './songs/ACG音乐推荐-直到世界尽头.mp3',
             imageUrl: './images/songs/7.jpg'
+        },
+        {
+            id: 8,
+            title: 'From THE FIRST TAKE-ClariS',
+            singer: 'ALIVE',
+            songUrl: './songs/ALIVE - From THE FIRST TAKE-ClariS.mp3',
+            imageUrl: './images/songs/8.jpg'
+        },
+        {
+            id: 9,
+            title: '花の塔',
+            singer: 'さユり',
+            songUrl: './songs/さユり-花の塔.mp3',
+            imageUrl: './images/songs/9.jpg'
         },
         ]
     }
