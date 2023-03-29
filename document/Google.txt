@@ -1,8 +1,11 @@
 # 谷歌翻译 IP地址修复
 # 更新日期：2023-3-29
-# 更新维护：反干扰西瓜
+# 更新维护：反干扰西瓜 
+# 问题反馈：fgr178707@163.com
+
 # 更新地址：https://fgr178707.github.io/document/Google.txt
 # 谷歌翻译链接：https://translate.google.com/
+
 # 使用方法：
 # 说明1： 将下方IP地址复制到 HOST 文件 
 # 默认路径 C:\Windows\System32\drivers\etc
