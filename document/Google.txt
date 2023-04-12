@@ -1,5 +1,5 @@
 # 谷歌翻译 IP地址修复
-# 更新日期：2023-3-30 9:00
+# 更新日期：2023-4-6 9:05
 # 更新维护：反干扰西瓜 
 # 问题反馈：fgr178707@163.com
 
@@ -10,7 +10,5 @@
 # 说明1： 将下方IP地址复制到 HOST 文件 
 # 默认路径 C:\Windows\System32\drivers\etc
 
-142.250.112.90 translate.googleapis.com
-142.250.112.90 translate.googleapis.cn
-142.250.112.90 translate.google.com
-142.250.112.90 translate.google.cn
+142.250.1.90 translate.googleapis.com
+142.250.1.90 translate.google.com
