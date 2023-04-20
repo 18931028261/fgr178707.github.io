@@ -12,3 +12,5 @@
 
 142.250.1.90 translate.googleapis.com
 142.250.1.90 translate.google.com
+
+#测试测试测试测试测试
